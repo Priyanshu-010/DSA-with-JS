@@ -12,3 +12,5 @@ function fibonacci(n){
 }
 
 console.log(fibonacci(3))
+
+// Time complexity Big-O = O(n)

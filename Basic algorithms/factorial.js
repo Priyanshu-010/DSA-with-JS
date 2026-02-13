@@ -4,10 +4,12 @@ function factorial(n){
     return 1;
   }
 
-  for(let i= 1; i<= n; i++){
+  for(let i= 2; i<= n; i++){
     fact = fact * i
   }
    return fact
 }
 
-console.log(factorial(0))
+console.log(factorial(5))
+
+// Time complexity Big-O = O(n)
